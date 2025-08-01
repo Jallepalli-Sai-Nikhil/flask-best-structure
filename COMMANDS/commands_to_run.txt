@@ -1,0 +1,19 @@
+python -m venv venv
+.\venv\Scripts\activate
+
+
+---------------------------------
+
+pip install --no-cache-dir -r requirements.txt
+
+---------------------------------
+.env file
+---------------------------------
+
+
+FLASK_APP=app.py
+FLASK_ENV=development
+
+---------------------------------
+
+flask run
